@@ -1,0 +1,47 @@
+{
+  "name": "prost-next",
+  "version": "2.0.0",
+  "description": "Next.js starter with TypeScript, Tailwind CSS, Framer Motion, and Splitbee",
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nawok/prost.git"
+  },
+  "keywords": [
+    "Starter",
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Splitbee"
+  ],
+  "author": "Pavel Fomchenkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nawok/prost/issues"
+  },
+  "homepage": "https://github.com/nawok/prost#readme",
+  "dependencies": {
+    "@splitbee/web": "^0.3.0",
+    "framer-motion": "^5.5.6",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "autoprefixer": "^10.4.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.6.0",
+    "eslint-config-next": "^12.0.7",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.12",
+    "typescript": "^4.5.4"
+  }
+}
